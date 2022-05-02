@@ -16,6 +16,5 @@ sh <- function(x)
              median= median(x),
              sum=sum(x),
              sqrt= sqrt(x),
-             trunc= trunc(x),
-             kurtosis= kurtosis(x))
+             trunc= trunc(x))
 }
