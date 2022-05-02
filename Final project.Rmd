@@ -1,0 +1,64 @@
+---
+title: "Untitled"
+author: "Sudeepthi"
+date: "05/1/2022"
+output: html_document
+---
+x= read.csv("covid.csv", header= TRUE)
+```{r}
+getwd()
+```
+```{r}
+x= read.csv("covid.csv", header = TRUE)
+```
+
+##Summary of the dataset chosen
+
+```{r covid, echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+summary(x)
+```
+## Structure helps to know the structure of yout dataset 
+
+```{r}
+str(x)
+```
+
+```{r}
+library(rio) 
+install.packages("rio")
+```
+
+
+```{r}
+library(moments) 
+install.packages("moments")
+```
+
+
+##graphical representation
+```{r}
+hist(x$Deaths)
+```
+
+
+
+
+
+```{r}
+##calculate median for deaths variable 
+# can be used to calculate the median for different variables in the dataset.
+median(x$Deaths)
+
+## used to calculate the sum of column discharged
+sum(x$Discharged)
+
+##sqrt is used to find the squareroot of Active column
+sqrt(x$Active)
+
+## trunc is used to remove decimals
+trunc(x$Total.Cases)
+
+```
+
+
+
