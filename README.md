@@ -6,11 +6,10 @@
 
 # Description file consists of info about autor, t=what a package does, license used
 
-
 #finalproject.rmd is the R markdown file
 
 #finalproject.html is the output from knitting the R maarkdown
 
 #covid.csv is the dataset used
 
-#shRpkg.Rprog
+#shRpkg.Rprog, is the file with outline of the package.
