@@ -17,6 +17,5 @@ sh <- function(x)
              sum=sum(x),
              sqrt= sqrt(x),
              trunc= trunc(x),
-             skewness=skewness(x),
              kurtosis= kurtosis(x))
 }
